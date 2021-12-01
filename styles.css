@@ -1,0 +1,23 @@
+#title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border-style: double;
+}
+.borderi {
+    margin: 7px 5px 7px 5px;
+    padding: 5px 3px 5px 3px;
+    
+}
+
+.price {
+    border-style: solid;
+    border-width: 2px;
+    margin: 5px 1px 5px 1px;
+    padding: 1px 1px 1px 1px;
+}
+
+#left {
+    font-size: 30px;
+    text-align: left;
+}
