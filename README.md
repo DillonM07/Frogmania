@@ -4,6 +4,9 @@ Frogmania is a game about forming your frog empire! You and your loyal subjects 
 ___________________________________________________________________________________________________________________________________________________________________
 # Play the game here: https://dillonm07.github.io/Frogmania/
 
+# Version 1.0.2 Patch Notes 12/02/21 9:47 PM
+Fixed CSS not linking and JS not working
+
 # Version 1.0.1 Patch Notes 12/02/21 9:34 PM
 1) Added function for FPS, now croaks give one FPS (FPS frogs per second)!
 2) Added functionality for lily pads, they now double your current ammount of FPC (Frogs Per Click)!
