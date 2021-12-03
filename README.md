@@ -5,7 +5,9 @@ ________________________________________________________________________________
 # Play the game here: https://dillonm07.github.io/Frogmania/
 
 # Version 1.0.2 Patch Notes 12/02/21 9:47 PM
-Fixed CSS not linking and JS not working
+1) CSS not linking to HTML file fixed!!
+2) JavaScript not doing anything now fixed!!!
+3) Basicaly Version 1.0.1 just with the files all working
 
 # Version 1.0.1 Patch Notes 12/02/21 9:34 PM
 1) Added function for FPS, now croaks give one FPS (FPS frogs per second)!
