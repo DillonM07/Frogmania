@@ -10,6 +10,11 @@ ________________________________________________________________________________
 
 ## Play the game here: [Frogmania!](https://dillonm07.github.io/Frogmania/)
 
+### Version 1.0.3 Patch Notes 12/03/21 7:42 PM
+1) Styled Title!
+2) Styled Time Spent!
+3) Cleaned up CSS code a bit!!
+
 ### Version 1.0.2 Patch Notes 12/02/21 9:47 PM
 1) CSS not linking to HTML file fixed!!
 2) JavaScript not doing anything now fixed!!!
