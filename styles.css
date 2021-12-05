@@ -10,40 +10,50 @@
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
 }
 
 
 /* Create three equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
-  .column {
-    width: 100%;
-  }
+    .column {
+        width: 100%;
+    }
+}
+
+/* play time styling*/
+.totalsec {
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 50px;
+    background-color: lightgreen;
+    font-size: 20px;
 }
 
 #title {
@@ -51,6 +61,9 @@ body {
     font-size: 50px;
     font-weight: bold;
     border-style: double;
+    border-width: 5px;
+    background-color: #a1c7b6;
+    border-radius: 50px;
 }
 
 
@@ -70,36 +83,36 @@ body {
 }
 
 .button-style {
-  padding: 5px;
-  margin: 20px 5px 20px 5px;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 2px 4px #999;
-  transition: 0.2s;
-  width: 200px;
-  height: 30px;
+    padding: 5px;
+    margin: 20px 5px 20px 5px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 4px #999;
+    transition: 0.2s;
+    width: 200px;
+    height: 30px;
 }
 
 .button-style span {
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
 .button-style span:after {
-  content: ' \0024';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: ' \0024';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
 
 .button-style:hover span {
@@ -114,13 +127,13 @@ body {
 .button-style:hover {
     transition: 0.2s;
     box-shadow: 5px 8px #666;
-    }
+}
 
 .button-style:active {
-  background-color: #4CAF50;
-  box-shadow: 2px 5px #666;
-  transform: translateY(5px);
-  transform: translateX(2px);
-  transition: 0.2s;
-  color: white;
+    background-color: #4CAF50;
+    box-shadow: 2px 5px #666;
+    transform: translateY(5px);
+    transform: translateX(2px);
+    transition: 0.2s;
+    color: white;
 }
