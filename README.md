@@ -10,6 +10,16 @@ ________________________________________________________________________________
 
 ## Play the game here: [Frogmania!](https://dillonm07.github.io/Frogmania/)
 
+### Version 1.0.4 Patch Notes 12/07/21 8:17 AM
+1) Styled Title! Again...
+2) Styled Time Spent!! Again..?
+3) Cleaned Up All Code Front & Back End!
+4) Added Upgrades & Frog Militia!!
+5) Super Croakers Give +2 Frogs Per Second!!
+6) Croaketeer(s) Assimilate +1 Frogs Per Click & +2 Frogs Per Second!
+7) Split Everything Into Three Columns
+8) Made The Game More Fun Overall
+
 ### Version 1.0.3 Patch Notes 12/03/21 7:42 PM
 1) Styled Title!
 2) Styled Time Spent!
