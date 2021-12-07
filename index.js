@@ -138,7 +138,7 @@ function buyCroaketeer() {
         croaketeerPrice *=rowThreePriceMulti;
         frogsPerClick+=1;
         frogsPerSec+=2;
-        croaketereerPrice = croaketeerPrice.toFixed(0);
+        croaketeerPrice = croaketeerPrice.toFixed(0);
         document.getElementById("croaketeernum").innerHTML="Number Of Croaketeers - "+numCroaketeers;
         document.getElementById("frognum").innerHTML="Number Of Frogs - "+numFrogs;
         document.getElementById("croaketeerprice").innerHTML="Price - "+croaketeerPrice; //updates croaketeers, frogs, and price
