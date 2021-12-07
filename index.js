@@ -69,6 +69,7 @@ function croak() {
         numFrogs -=croakPrice;
         croakPrice *=rowOnePriceMulti;
         frogsPerSec+=1;
+        croakPrice = croakPrice.toFixed(0);
         document.getElementById("croaksnum").innerHTML="Number Of Croaks - "+numCroaks;
         document.getElementById("frognum").innerHTML="Number Of Frogs - "+numFrogs;
         document.getElementById("croakprice").innerHTML="Price - "+croakPrice; //updates croaks, frogs, and price
@@ -86,6 +87,7 @@ function lilypad() {
         numLilyPads+=1;
         numFrogs -=lilyPadPrice;
         lilyPadPrice *=rowOnePriceMulti;
+        lilyPadPrice = lilyPadPrice.toFixed(0);
         frogsPerClick *=2; //Get 2X more frogs per click
         document.getElementById("lilypadsnum").innerHTML="Number Of Lily Pads - "+numLilyPads;
         document.getElementById("lilypadprice").innerHTML="Price - "+lilyPadPrice; //updates lily pad prices and # of pads
@@ -115,6 +117,7 @@ function buySuperCroak() {
         numFrogs -=superCroakPrice;
         superCroakPrice *=rowTwoPriceMulti;
         frogsPerSec+=2;
+        superCroakPrice = superCroakPrice.toFixed(0);
         document.getElementById("supercroaksnum").innerHTML="Number Of Super Croakers - "+numSuperCroak;
         document.getElementById("frognum").innerHTML="Number Of Frogs - "+numFrogs;
         document.getElementById("supercroakprice").innerHTML="Price - "+superCroakPrice; //updates croaks, frogs, and price
@@ -135,6 +138,7 @@ function buyCroaketeer() {
         croaketeerPrice *=rowThreePriceMulti;
         frogsPerClick+=1;
         frogsPerSec+=2;
+        croaketereerPrice = croaketeerPrice.toFixed(0);
         document.getElementById("croaketeernum").innerHTML="Number Of Croaketeers - "+numCroaketeers;
         document.getElementById("frognum").innerHTML="Number Of Frogs - "+numFrogs;
         document.getElementById("croaketeerprice").innerHTML="Price - "+croaketeerPrice; //updates croaketeers, frogs, and price
@@ -145,7 +149,3 @@ function buyCroaketeer() {
         window.alert("Issuficient Amount of Frogs"); //shows if not enough frogs
     }
 }
-         
-         
-         
-        
