@@ -27,34 +27,36 @@ var frogsPerClick=1;
 var timePlayed=0;
 
 //all start item price variables
-var croakPrice=10;
+var croakPrice=25;
 var lilyPadPrice=100;
 
 //militia variables
 var numSuperCroak=0;
 var numCroaketeers=0;
 var numCroaketeer=0;
+var numLilyPontoon=0;
 var numDirtyWater=0;
 var numFog=0;
 var numUltraCroaker=0;
 var numSwamps=0;
 
 //militia prices
-var superCroakPrice=300;
-var croaketeerPrice=500;
-var dirtyWater=1000;
+var superCroakPrice=75;
+var croaketeerPrice=300;
+var lilyPontoonPrice=250;
+var dirtyWater=750;
 var fogPrice=1200;
-var ultraCroakerPrice=1500;
-var swampsPrice=200;
+var ultraCroakerPrice=1750;
+var swampsPrice=2500;
 
 //how many start items you have
 var numCroaks=0;
 var numLilyPads=0;
 
 //price multiplier(s)
-var rowOnePriceMulti=1.2;
-var rowTwoPriceMulti=1.5;
-var rowThreePriceMulti=1.8;
+var rowOnePriceMulti=1.1;
+var rowTwoPriceMulti=1.2;
+var rowThreePriceMulti=1.3;
 
 //function to get frogs
 function asmlt() {
@@ -88,7 +90,7 @@ function lilypad() {
         numFrogs -=lilyPadPrice;
         lilyPadPrice *=rowOnePriceMulti;
         lilyPadPrice = lilyPadPrice.toFixed(0);
-        frogsPerClick *=2; //Get 2X more frogs per click
+        frogsPerClick +=2; //Get +2 more frogs per click
         document.getElementById("lilypadsnum").innerHTML="Number Of Lily Pads - "+numLilyPads;
         document.getElementById("lilypadprice").innerHTML="Price - "+lilyPadPrice; //updates lily pad prices and # of pads
 
@@ -101,12 +103,12 @@ function lilypad() {
 
 // function that happens every second
 setInterval(function() {
-        numFrogs +=frogsPerSec; // adds the number of frogs per second to your total frogs
+        numFrogs +=frogsPerSec;// adds the number of frogs per second to your total frogs
         document.getElementById("frognum").innerText="Number Of Frogs - "+ numFrogs;
         //change the number of frogs in the HTML
     }
 
-    , 1000) // every second (1000 milliseconds)
+    , 1000) // every second (250 milliseconds)
 
 //function that shows how long you have been playing
 
@@ -131,21 +133,20 @@ function buySuperCroak() {
 
 
 //militia upgrade functions
-function buyCroaketeer() {
-    if(numFrogs >=croaketeerPrice) {
-        numCroaketeers+=1;
-        numFrogs -=croaketeerPrice;
-        croaketeerPrice *=rowThreePriceMulti;
-        frogsPerClick+=1;
-        frogsPerSec+=2;
-        croaketeerPrice = croaketeerPrice.toFixed(0);
-        document.getElementById("croaketeernum").innerHTML="Number Of Croaketeers - "+numCroaketeers;
+function buyLilyPontoon() {
+    if(numFrogs >=lilyPontoonPrice) {
+        numLilyPontoon+=1;
+        numFrogs -=lilyPontoonPrice;
+        lilyPontoonPrice *=rowThreePriceMulti;
+        frogsPerClick+=2;
+        lilyPontoonPrice = lilyPontoonPrice.toFixed(0);
+        document.getElementById("lilypontoonnum").innerHTML="Number Of Lily Pontoons - "+numLilyPontoon;
         document.getElementById("frognum").innerHTML="Number Of Frogs - "+numFrogs;
-        document.getElementById("croaketeerprice").innerHTML="Price - "+croaketeerPrice; //updates croaketeers, frogs, and price
+        document.getElementById("lilypontoonprice").innerHTML="Price - "+lilyPontoonPrice; //updates Lily Pontoons, frogs, and price
 
     }
 
    else {
-        window.alert("Issuficient Amount of Frogs"); //shows if not enough frogs
-    }
+       window.alert("Issuficient Amount of Frogs"); //shows if not enough frogs
+   }
 }
