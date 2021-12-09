@@ -10,6 +10,15 @@ ________________________________________________________________________________
 
 ## Play the game here: [Frogmania!](https://dillonm07.github.io/Frogmania/)
 
+### Version 1.0.5 Patch Notes 12/09/21 5:31
+1) Styled All Font With A Custom One!!
+2) Cleaned Up Back And Front End Code!
+3) Added Lily Pontoon(s) Gives +2 Frogs Per Second!
+4) Instead Of An Assimilate Frogs Button I Added A Frog Picture To Click!!
+5) Moved Croaks & Lily Pads Into Croak Production Section!!
+6) Changed Prices To Make Game Take Longer!
+7) Frog Also Shakes When You Click It!!
+
 ### Version 1.0.4 Patch Notes 12/07/21 8:57 AM
 1) Styled Title! Again...
 2) Styled Time Spent!! Again..?
