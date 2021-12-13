@@ -1,5 +1,7 @@
 # Frogmania!
 
+
+### !!!Full Beta Testing Soon!!!
 ___________________________________________________________________________________________________________________________________________________________________
  Frogmania is a game about forming your frog empire! You and your loyal subjects will assimilate more and more frogs, eventually making it a streamline production of brilliance! As you build your empire you can dominate the world and thrive as the supperior life form! From regular old frogs to Alien frogeez maybe even the  most powerful of arcane wizardz... FROGLIN! So Tap Tap Tap away and build up your own frog regime! Dedicated to my younger brother Riker, the frog loving crazed  six year old!                                                                                                                                                    
 ___________________________________________________________________________________________________________________________________________________________________
@@ -10,7 +12,15 @@ ________________________________________________________________________________
 
 ## Play the game here: [Frogmania!](https://dillonm07.github.io/Frogmania/)
 
-### Version 1.0.5 Patch Notes 12/09/21 5:31
+### Varsion 1.0.6 Patch Notes 12/13/21 1:29 PM
+1) Added Frog Essence Used For Rebirths (For Now)!!
+2) Added Frog Essence Per Second Counter!
+3) Added Rebirths To Make The Game A Bit More Fun & Last Longer!!
+4) Added Sroll Bars To The Two Existing Sections So It Looks A Bit Better!!
+5) Added A Pond Background To The Frog That You Click!
+6) I Super Organized The Code Too!
+
+### Version 1.0.5 Patch Notes 12/09/21 5:31 PM
 1) Styled All Font With A Custom One!!
 2) Cleaned Up Back And Front End Code!
 3) Added Lily Pontoon(s) Gives +2 Frogs Per Second!
