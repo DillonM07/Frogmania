@@ -12,7 +12,7 @@ ________________________________________________________________________________
 
 ## Play the game here: [Frogmania!](https://dillonm07.github.io/Frogmania/)
 
-### Varsion 1.0.6 Patch Notes 12/13/21 1:29 PM
+### Version 1.0.6 Patch Notes 12/13/21 1:29 PM
 1) Added Frog Essence Used For Rebirths (For Now)!!
 2) Added Frog Essence Per Second Counter!
 3) Added Rebirths To Make The Game A Bit More Fun & Last Longer!!
