@@ -1,207 +1,186 @@
 body {
-font-family: 'retro_gamingregular', Arial, sans-serif;
-font-weight:normal;
-font-style:normal;
+	font-family: 'retro_gamingregular', Arial, sans-serif;
+	font-weight: normal;
+	font-style: normal;
 }
-
 button {
-    font-family: 'retro_gamingregular';
-    src: url('https://codehs.com/uploads/d7357264d91fb452e893201d29ff1dfd') format('woff2'),
-         url('https://codehs.com/uploads/26d3005c4f0e44dc846a2dac130da941') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'retro_gamingregular';
+	src: url('https://codehs.com/uploads/d7357264d91fb452e893201d29ff1dfd') format('woff2'), url('https://codehs.com/uploads/26d3005c4f0e44dc846a2dac130da941') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
-
 @font-face {
-    font-family: 'retro_gamingregular';
-    src: url('https://codehs.com/uploads/d7357264d91fb452e893201d29ff1dfd') format('woff2'),
-         url('https://codehs.com/uploads/26d3005c4f0e44dc846a2dac130da941') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+	font-family: 'retro_gamingregular';
+	src: url('https://codehs.com/uploads/d7357264d91fb452e893201d29ff1dfd') format('woff2'), url('https://codehs.com/uploads/26d3005c4f0e44dc846a2dac130da941') format('woff');
+	font-weight: normal;
+	font-style: normal;
 }
-
 .frogpress:focus {
 	animation: shakefrog 0.2s 2;
 }
-
 .frogpress:active {
 	animation: none;
-    animation: none;
+	animation: none;
 }
-
 @keyframes shakefrog {
-  50% {transform: rotate(10deg);}
+	50% {
+		transform: rotate(10deg);
+	}
 }
-
 .spacer {
-    border-left-style: solid;
-    border-left-width: 5px;
-    border-left-color: #488214;
-    background-color: rgba(124, 205, 124, 0.3);
+	border-left-style: solid;
+	border-left-width: 5px;
+	border-left-color: #488214;
+	background-color: rgba(124, 205, 124, 0.3);
 }
-
 .totalsec:hover {
-    border-style: ;
+	border-style: ;
 }
-
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
-
 body {
-  margin: 0;
+	margin: 0;
 }
-
 /* Create three unequal columns that floats next to each other */
+
 .column {
-  float: left;
-  padding: 1px;
+	float: left;
+	padding: 1px;
 }
-
 /* Left column */
+
 .column.lefty {
-  width: 33.33%;
-  border-right-style: solid;
-  border-right-width: 3px;
-  border-left-style: solid;
-  border-left-width: 3px;
+	width: 33.33%;
+	border-right-style: solid;
+	border-right-width: 3px;
+	border-left-style: solid;
+	border-left-width: 3px;
 }
-
 .column.right {
-  width: 33.33%;
+	width: 33.33%;
 }
-
 /* Middle column */
+
 .column.middle {
-  width: 33.33%;
+	width: 33.33%;
+	background-image: url("https://codehs.com/uploads/544f8f46bd09c1b1be34365eeb6e1226");
 }
-
 /* Clear floats after the columns */
+
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
+	.column.side, .column.middle {
+		width: 100%;
+	}
 }
-
 /* Style the header */
+
 .header {
-    background-color: #f1f1f1;
-    padding: 20px;
-    text-align: center;
+	background-color: #f1f1f1;
+	padding: 20px;
+	text-align: center;
 }
-
 .textcenter {
-    text-align: center;
+	text-align: center;
 }
-
 /* play time styling*/
+
 .totalsec {
-    text-align: center;
-    border-style: solid;
-    border-width: 3px;
-    border-radius: 50px;
-    background-color: lightgreen;
-    font-size: 20px;
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 50px;
+	background-color: lightgreen;
+	font-size: 20px;
 }
-
 #title {
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-    border-style: double;
-    border-width: 5px;
-    background-color: #a1c7b6;
-    border-radius: 50px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	border-style: double;
+	border-width: 5px;
+	background-color: #a1c7b6;
+	border-radius: 50px;
 }
-
 .subtitle {
-    text-align: center;
-    font-size: 15px;
+	text-align: center;
+	font-size: 15px;
 }
-
-
 .price {
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 5px;
-    margin: 5px 5px 5px 5px;
-    padding: 2px 2px 2px 2px;
-    background: #98FB98;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+	margin: 5px 5px 5px 5px;
+	padding: 2px 2px 2px 2px;
+	background: #98FB98;
 }
-
-
 .left {
-    font-size: 30px;
-    text-align: left;
+	font-size: 30px;
+	text-align: left;
 }
-
 .button-style {
-    padding: 5px;
-    margin: 20px 5px 20px 5px;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 2px 4px #999;
-    transition: 0.2s;
-    width: 210px;
-    height: 30px;
+	padding: 5px;
+	margin: 20px 5px 20px 5px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #4CAF50;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 2px 4px #999;
+	transition: 0.2s;
+	width: 210px;
+	height: 30px;
 }
-
 .button-style span {
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
 }
-
 .button-style span:after {
-    content: ' \0024';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
+	content: ' \0024';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
 }
-
 .button-style:hover span {
-    padding-right: 20px;
+	padding-right: 20px;
 }
-
 .button-style:hover span:after {
-    opacity: 1;
-    right: 0;
+	opacity: 1;
+	right: 0;
 }
-
 .button-style:hover {
-    transition: 0.2s;
-    box-shadow: 5px 8px #666;
+	transition: 0.2s;
+	box-shadow: 5px 8px #666;
 }
-
 .button-style:active {
-    background-color: #4CAF50;
-    box-shadow: 2px 5px #666;
-    transform: translateY(5px);
-    transform: translateX(2px);
+	background-color: #4CAF50;
+	box-shadow: 2px 5px #666;
+	transform: translateY(5px);
+	transform: translateX(2px);
 }
-
-    transition: 0.2s;
-    color: white;
+transition: 0.2s;
+color: white;
 }
-
 .textleft {
-    text-align: left;
+	text-align: left;
+}
+.image {
+	background-image: url("https://art.pixilart.com/9f9d069973c2cf2.png");
+}
+.scroll {
+	overflow: scroll;
 }
