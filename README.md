@@ -28,7 +28,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/DillonM07/Frogmania">
-    <img src="https://images-ext-2.discordapp.net/external/Z7Om6fkTCVpn0VXk_q7oM0vnoHdX2VqhVnpb2_wgtc8/https/repository-images.githubusercontent.com/433945027/72500eb0-c0c6-4494-a7bf-78e74b32e149?width=500&height=250" alt="Logo" width="900" height="550">
+    <img src="https://images-ext-2.discordapp.net/external/Z7Om6fkTCVpn0VXk_q7oM0vnoHdX2VqhVnpb2_wgtc8/https/repository-images.githubusercontent.com/433945027/72500eb0-c0c6-4494-a7bf-78e74b32e149?width=500&height=250" alt="Logo" width="900" height="400">
   </a>
 
 <h3 align="center">Frogmania</h3>
