@@ -1,16 +1,129 @@
-# Frogmania!
+<div id="top"></div>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
 
-### !!!Full Beta Testing Soon!!!
-___________________________________________________________________________________________________________________________________________________________________
- Frogmania is a game about forming your frog empire! You and your loyal subjects will assimilate more and more frogs, eventually making it a streamline production of brilliance! As you build your empire you can dominate the world and thrive as the supperior life form! From regular old frogs to Alien frogeez maybe even the  most powerful of arcane wizardz... FROGLIN! So Tap Tap Tap away and build up your own frog regime! Dedicated to my younger brother Riker, the frog loving crazed  six year old!                                                                                                                                                    
-___________________________________________________________________________________________________________________________________________________________________
 
- Please leave some suggestions in the Discussions tab & Leave some feedback! Done be afraid to fork this and add some stuff, it might even get approved and go into the game!! If you do your name will be in a contributors bar, and when you add 3+ things to the game (that are approved) you will be officialy part of my Dev Team!
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-___________________________________________________________________________________________________________________________________________________________________
 
-## Play the game here: [Frogmania!](https://dillonm07.github.io/Frogmania/)
+
+<!-- PROJECT LOGO -->
+<br/>
+<div align="center">
+  <a href="https://github.com/DillonM07/Frogmania">
+    <img src="https://images-ext-2.discordapp.net/external/Z7Om6fkTCVpn0VXk_q7oM0vnoHdX2VqhVnpb2_wgtc8/https/repository-images.githubusercontent.com/433945027/72500eb0-c0c6-4494-a7bf-78e74b32e149?width=500&height=250" alt="Logo" width="900" height="550">
+  </a>
+
+<h3 align="center">Frogmania</h3>
+
+  <p align="center">
+    <br/>
+    <a href="https://github.com/DillonM07/Frogmania"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://dillonm07.github.io/Frogmania/">View Demo</a>
+    ·
+    <a href="https://github.com/DillonM07/Frogmania/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/DillonM07/Frogmania/issues">Request Feature</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <ul>
+        <li><a href="#installation">Game Reveiws</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Contributors</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">How To Contribute</a></li>
+    <li><a href="#contact">Discord Server & ID</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+
+
+Frogmania is a game about forming your frog empire! You and your loyal subjects will assimilate more and more frogs, eventually making it a streamline production of brilliance! Tap Tap Tap away and build up your own frog regime! Dedicated to my younger brother Riker, the frog loving crazed six year old!
+
+About Me:
+I started making this game on 11/31/21 on the day after my 14TH birthday and since then it has come a long way, the first release being just the day after, 12/01/21 12:58 PM, with a couple buttons and some very primative coding. Since then I have expanded my CSS capabilites and learned a lot, I even had a day where I was at almost four hundred veiws a couple hours after my fourth pre-alpha release on Version 1.0.4 Patch Notes 12/07/21 at 8:57 AM! I hope to grow as a developer and learn a lot, don't be scarce to tell what would make it a nicer experience! I still have a long way to go until Beta but I hope with some helping hands it could be sooner! - Your Croakin' Dev, Dillon Mowry
+
+###Full Alpha Testing Soon, Hopefully
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Built With
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [JavaScript](https://www.javascript.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Game Reveiws
+
+Check back later... :C No one has submited them yet... 
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Game Images
+![image](https://user-images.githubusercontent.com/94626062/148658413-09204541-020d-4721-9694-ab0cf406ea21.png)
+![image](https://user-images.githubusercontent.com/94626062/148658512-355c0ac5-f41b-40c5-b334-d2b455eba544.png)
+![image](https://user-images.githubusercontent.com/94626062/148658544-53dac66e-b9b3-41ac-8050-3400a890743e.png)
+![image](https://user-images.githubusercontent.com/94626062/148658427-3249ecee-bc83-4cd5-a3ec-9a52f2baf3bc.png)
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
 
 ### Version 1.0.6 Patch Notes 12/13/21 1:29 PM
 1) Added Frog Essence Used For Rebirths (For Now)!!
@@ -62,3 +175,64 @@ ________________________________________________________________________________
 
 ### Version 1.0.0 Patch Notes 12/01/21 12:58 PM
 Base game has been published!
+
+See the [open issues](https://github.com/DillonM07/Frogmania/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributors
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+6. Message Me On Discord At BalancE_Dillon#7969
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+
+<!-- CONTACT -->
+## Contact
+
+Your Name - [BalancE_Dillon#7969](https://discord.com/)
+
+Project Link: [Frogmania](https://github.com/DillonM07/Frogmania)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* []()
+* []()
+* []()
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/DillonM07/Frogmania.svg?style=for-the-badge
+[contributors-url]: https://github.com/DillonM07/Frogmania/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/DillonM07/Frogmania.svg?style=for-the-badge
+[forks-url]: https://github.com/DillonM07/Frogmania/network/members
+[stars-shield]: https://img.shields.io/github/stars/DillonM07/Frogmania.svg?style=for-the-badge
+[stars-url]: https://github.com/DillonM07/Frogmania/stargazers
+[issues-shield]: https://img.shields.io/github/issues/DillonM07/Frogmania.svg?style=for-the-badge
+[issues-url]: https://github.com/DillonM07/Frogmania/issues
+[license-shield]: https://img.shields.io/github/license/DillonM07/Frogmania.svg?style=for-the-badge
+[product-screenshot]: https://images-ext-2.discordapp.net/external/Z7Om6fkTCVpn0VXk_q7oM0vnoHdX2VqhVnpb2_wgtc8/https/repository-images.githubusercontent.com/433945027/72500eb0-c0c6-4494-a7bf-78e74b32e149?width=500&height=250
