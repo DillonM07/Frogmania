@@ -203,7 +203,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [BalancE_Dillon#7969](https://discord.com/)
+Your Name - [PotatoDillon#7969](https://discord.com/)
 
 Project Link: [Frogmania](https://github.com/DillonM07/Frogmania)
 
